@@ -1,0 +1,17 @@
+[project]
+name = "my-second-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "oksana"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "django (>=6.0.6,<7.0.0)",
+    "fastapi (>=0.139.0,<0.140.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
